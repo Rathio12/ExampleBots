@@ -12,6 +12,6 @@ GitHub and Discord work together on secret scanning, so a token pushed to a publ
 
 ## Reporting a vulnerability in these examples
 
-If you find a security problem in the example code (for example a permission check that can be bypassed), please open a [private security advisory](../../security/advisories/new) instead of a public issue.
+If you find a security problem in the example code (for example a permission check that can be bypassed), please open a [private security advisory](https://github.com/Rathio12/ExampleBots/security/advisories/new) instead of a public issue.
 
 See the wiki page [Security Best Practices](wiki/Security-Best-Practices.md) for guidance on writing safe bots.

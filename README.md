@@ -131,6 +131,16 @@ Each language has a long step-by-step guide:
 
 ## Wiki
 
+The [wiki](wiki/Home.md) is an encyclopedia of **150+ articles**: shared concepts plus a portal per language that covers the same 42 topics in each library.
+
+| Portal | Library | Articles |
+|---|---|---|
+| [![JavaScript](https://img.shields.io/badge/-JavaScript_portal-F7DF1E?logo=javascript&logoColor=black&style=flat-square)](wiki/JavaScript/README.md) | discord.js v14 | 42 |
+| [![Python](https://img.shields.io/badge/-Python_portal-3776AB?logo=python&logoColor=white&style=flat-square)](wiki/Python/README.md) | discord.py 2.x | 42 |
+| [![C#](https://img.shields.io/badge/-C%23_portal-512BD4?logo=dotnet&logoColor=white&style=flat-square)](wiki/CSharp/README.md) | Discord.Net 3.x | 42 |
+
+Concept articles:
+
 | Basics | Building | Running |
 |---|---|---|
 | [Getting Started](wiki/Getting-Started.md) | [Slash Commands & Interactions](wiki/Slash-Commands-and-Interactions.md) | [Deployment & Hosting](wiki/Deployment-and-Hosting.md) |

@@ -1,0 +1,38 @@
+name: Bug report
+description: Something in one of the example bots doesn't work
+labels: [bug]
+body:
+  - type: dropdown
+    id: bot
+    attributes:
+      label: Which bot?
+      options:
+        - JavaScript / Basic
+        - JavaScript / Enhanced
+        - JavaScript / Expert
+        - Python / Basic
+        - Python / Enhanced
+        - Python / Expert
+        - C# / Basic
+        - C# / Enhanced
+        - C# / Expert
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output
+      description: Paste the error. **Remove your bot token if it appears!**
+      render: shell
+  - type: input
+    id: versions
+    attributes:
+      label: Runtime version
+      placeholder: "e.g. Node 22.11, Python 3.12.4, .NET 10.0.1"

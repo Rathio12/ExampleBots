@@ -1,0 +1,36 @@
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# Databases created by the expert bots
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# JavaScript
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# C# / .NET
+bin/
+obj/
+*.user
+.vs/
+TestResults/
+
+# Editors / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db

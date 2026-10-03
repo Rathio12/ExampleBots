@@ -1,0 +1,19 @@
+{
+  "name": "basic-discord-bot-js",
+  "version": "1.0.0",
+  "description": "A minimal Discord bot in a single file using discord.js v14",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "license": "MIT"
+}

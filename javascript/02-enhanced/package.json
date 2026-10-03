@@ -1,0 +1,21 @@
+{
+  "name": "enhanced-discord-bot-js",
+  "version": "1.0.0",
+  "description": "A modular Discord bot with embeds, buttons, select menus, modals, cooldowns and live game-server player counts (discord.js v14)",
+  "type": "module",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "license": "MIT"
+}

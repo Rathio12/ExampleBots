@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directories: ["/javascript/*"]
+    schedule: { interval: monthly }
+  - package-ecosystem: pip
+    directories: ["/python/*"]
+    schedule: { interval: monthly }
+  - package-ecosystem: nuget
+    directories: ["/csharp/01-basic", "/csharp/02-enhanced", "/csharp/03-expert"]
+    schedule: { interval: monthly }
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule: { interval: monthly }

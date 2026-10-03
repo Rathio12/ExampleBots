@@ -1,5 +1,7 @@
 # JavaScript Portal: discord.js v14
 
+![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?logo=discord&logoColor=white&style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=nodedotjs&logoColor=white&style=flat-square) ![articles](https://img.shields.io/badge/articles-42-5865F2?style=flat-square)
+
 <sub>[Wiki home](../Home.md) › JavaScript</sub>
 
 | | |
